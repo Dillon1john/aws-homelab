@@ -1,5 +1,8 @@
 # aws-homelab
 
+## Objective: 
+  ###Built a secure, cost-effective AWS lab demonstrating VPC design, secure remote access through a bastion host, and Linux server hardening. The project strengthens networking fundamentals while showcasing practical networking, cloud infrastructure, and system administration skills.
+
 ## Step 1: Create Budget
 <img width="1906" height="993" alt="Screenshot 2026-10-23 at 12 41 50 PM" src="https://github.com/user-attachments/assets/6fd326a4-eabb-41c0-bf59-edd2a4217b58" />
 
