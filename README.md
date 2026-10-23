@@ -3,7 +3,7 @@
 ## Objective: 
   ### Built a secure, cost-effective AWS lab demonstrating VPC design, secure remote access through a bastion host, and Linux server hardening. The project strengthens networking fundamentals while showcasing practical networking, cloud infrastructure, and system administration skills.
 
-##Architecture 
+## Architecture 
 <img width="2108" height="1640" alt="IMG_0337" src="https://github.com/user-attachments/assets/33917280-dc8b-441d-adfb-5f90675aaf0f" />
 | Component | Details |
 | ------- | ------ |
