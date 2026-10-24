@@ -36,5 +36,5 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
   Created a VPC using the "VPC and more" wizard with one public subnet, one private subnet, one availability zone, and no NAT gateway. 
   <img width="1078" height="394" alt="VPCrestab" src="https://github.com/user-attachments/assets/f3ca2b27-c78a-4714-b76f-3aa9d743ba65" />
 
-  **What I learned:**A public subnet has a direct route to the internet gateway. A private subnet does not.
+  ** What I learned: ** A public subnet has a direct route to the internet gateway. A private subnet does not.
 
