@@ -70,7 +70,7 @@ then i run a bash script that connects to the private server through the bastion
 
 <img width="1917" height="554" alt="Screenshot 2026-10-24 at 1 56 51 AM" src="https://github.com/user-attachments/assets/41efdf4a-d4bf-40ae-98e1-1b6470f09581" />
 
-##Troubleshooting Log
+## Troubleshooting Log
 | Problem | Cause | Fix |
 | ------ | ------ | ----- |
 | Permission denied <br>(publickey) | Key file <br>permissions too <br>open | Ran `chmod 400 ~/Downloads/bastionKey.pem |
