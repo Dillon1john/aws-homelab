@@ -42,7 +42,7 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
 ### 2. Bastion Host (Public Subnet)
 - Amazon Linux 2023, t3.micro
 - SSH allowed from my IP only
-## 3. Private Server (Private Subnet)
+### 3. Private Server (Private Subnet)
 - Same image, no public IP
 - SSH allowed only from the bastion's security group
 
@@ -53,8 +53,8 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
 | Bastion | HTTP | 80 | 0.0.0.0/0 | 
 | Private server | SSH | 22 | Bastion security group |
 
-## 4. Connecting Through the Bastion 
-Initially, I run a code to update the permissions of the pem key to be private/ read only
+### 4. Connecting Through the Bastion 
+Initially, I run a code to update the permissions of the pem key to be private/ read only. 
 
 `chmod 400 ~/Download/bastionKey.pem` 
 
@@ -69,4 +69,9 @@ then i run a bash script that connects to the private server through the bastion
 - **ec2-user@PRIVATE_IP:** the private server login
 
 <img width="1917" height="554" alt="Screenshot 2026-10-24 at 1 56 51 AM" src="https://github.com/user-attachments/assets/41efdf4a-d4bf-40ae-98e1-1b6470f09581" />
+
+##Troubleshooting Log
+| Problem | Cause | Fix |
+| ------ | ------ | ----- |
+| Permission denied <br>(publickey) | Key file <br>permissions too <br>open | Ran `chmod 400 ~/Downloads/bastionKey.pem |
 
