@@ -110,7 +110,7 @@ Validated the file with `sudo sshd -t`, restarted with `sudo systemctl restart s
 - How security groups can reference each other instead of IP addresses
 - Why stopping resources and setting budgets matters in the cloud.
 
-##Next Steps
+## Next Steps
 - [] Add Active Directory, DNS, and DHCP on Windows Server
 - [] Add monitoring with Grafana or Zabbix
 - [] Automate start/stop of instances with a Python (boto3) script
