@@ -111,10 +111,10 @@ Validated the file with `sudo sshd -t`, restarted with `sudo systemctl restart s
 - Why stopping resources and setting budgets matters in the cloud.
 
 ## Next Steps
-- [] Add Active Directory, DNS, and DHCP on Windows Server
-- [] Add monitoring with Grafana or Zabbix
-- [] Automate start/stop of instances with a Python (boto3) script
-- [] Rebuild the VPC with Terraform
+- [ ] Add Active Directory, DNS, and DHCP on Windows Server
+- [ ] Add monitoring with Grafana or Zabbix
+- [ ] Automate start/stop of instances with a Python (boto3) script
+- [ ] Rebuild the VPC with Terraform
 
 ## Security Notes
 No keys, passwords, or account IDs are stored in this repo. IP addresses and account details in screenshots are blurred.
