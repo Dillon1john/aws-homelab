@@ -14,7 +14,13 @@
 | Internet Gateway | Attached to the VPC, used by <br> the public route table only |
 
 
+## Skills Demonstrated
 
+- VPC design:CIDR planning, public vs private subnets, routes tables, internet gateway
+- Security groups: least-privilege rules, security-group-to-security-group references
+- Secure remote access, SSH key authentication, bastion/jump host
+- Linux administration: package updates, Nginx, SSH hardening
+- Cloud cost management: budgets, alerts, stopping unused resources
 
 
 ## Cost Controls
@@ -24,4 +30,4 @@
 Before building anything, I set up a $10 monthly budget with an email alert. This helps to keep lab costs predictable and catch any mistakes early. I review the billing dashboard weekly and make sure to end my EC2 instances when not using them to not build any unnecessary costs.  
 
 
-## Step 2: Build the network
+## Build Steps
