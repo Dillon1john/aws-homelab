@@ -64,7 +64,7 @@ then i run a bash script that connects to the private server through the bastion
 
 - **ssh:** opens a secure remote connection
 - **-i ~/Downloads/bastionKey.pem:** identify the key pair file
-- **-J:** jump host. Tells SSH to connect to the bastion first, then hop to the pricate server.
+- **-J:** jump host. Tells SSH to connect to the bastion first, then hop to the private server.
 - **ec2-user@BASTION_PUBLIC_IP:** the bastion login.
 - **ec2-user@PRIVATE_IP:** the private server login
 
