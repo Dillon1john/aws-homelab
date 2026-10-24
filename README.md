@@ -73,5 +73,5 @@ then i run a bash script that connects to the private server through the bastion
 ## Troubleshooting Log
 | Problem | Cause | Fix |
 | ------ | ------ | ----- |
-| Permission denied <br>(publickey) | Key file <br>permissions too <br>open | Ran `chmod 400 ~/Downloads/bastionKey.pem |
+| Permission denied <br>(publickey) | Key file <br>permissions too <br>open | Ran `chmod 400 ~/Downloads/bastionKey.pem` |
 
