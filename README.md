@@ -52,3 +52,15 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
 | Bastion | SSH | 22 | My IP | 
 | Bastion | HTTP | 80 | 0.0.0.0/0 | 
 | Private server | SSH | 22 | Bastion security group |
+
+## 4. Connecting Through the Bastion 
+Initially, I run a code to update the permissions of the pem key to be private/ read only
+
+chmod 400 ~/Download/bastionKey.pem 
+
+then i run a bash script that connects to the private server through the bastion server
+
+ssh -i ~/Downloads/bastionKey.pem ec2-user@BASTION_PUBLIC_IP ec2-user@PRIVATE_IP
+
+<img width="1917" height="554" alt="Screenshot 2026-10-24 at 1 56 51 AM" src="https://github.com/user-attachments/assets/41efdf4a-d4bf-40ae-98e1-1b6470f09581" />
+
