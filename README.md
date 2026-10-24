@@ -5,6 +5,7 @@
 
 ## Architecture 
 <img width="2108" height="1640" alt="IMG_0337" src="https://github.com/user-attachments/assets/33917280-dc8b-441d-adfb-5f90675aaf0f" />
+
 | Component | Details |
 | ------- | ------ |
 | VPC | 10.0.0.0/16 |
