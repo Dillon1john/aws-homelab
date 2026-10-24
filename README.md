@@ -16,7 +16,7 @@
 
 ## Skills Demonstrated
 
-- VPC design:CIDR planning, public vs private subnets, routes tables, internet gateway
+- VPC design: CIDR planning, public vs private subnets, routes tables, internet gateway
 - Security groups: least-privilege rules, security-group-to-security-group references
 - Secure remote access, SSH key authentication, bastion/jump host
 - Linux administration: package updates, Nginx, SSH hardening
@@ -31,3 +31,10 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
 
 
 ## Build Steps
+
+### 1. Network (VPC)
+  Created a VPC using the "VPC and more" wizard with one public subnet, one private subnet, one availability zone, and no NAT gateway. 
+  <img width="1078" height="394" alt="VPCrestab" src="https://github.com/user-attachments/assets/f3ca2b27-c78a-4714-b76f-3aa9d743ba65" />
+
+  **What I learned:**A public subnet has a direct route to the internet gateway. A private subnet does not.
+
