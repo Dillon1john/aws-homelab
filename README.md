@@ -74,5 +74,5 @@ then i run a bash script that connects to the private server through the bastion
 | Problem | Cause | Fix |
 | ------ | ------ | ----- |
 | Permission denied <br>(publickey) | Key file <br>permissions too <br>open | Ran `chmod 400 ~/Downloads/bastionKey.pem` |
-| SSH timed out | Security group didn't allow my current IP | Updated the inbound <br>security group rules <br>to my IP |
+| SSH timed out | Security group didn't allow my current IP | Updated the inbound security group rules <br>to my IP |
 
