@@ -38,3 +38,17 @@ Before building anything, I set up a $10 monthly budget with an email alert. Thi
 
   **What I learned:** A public subnet has a direct route to the internet gateway. A private subnet does not.
 
+
+### 2. Bastion Host (Public Subnet)
+- Amazon Linux 2023, t3.micro
+- SSH allowed from my IP only
+## 3. Private Server (Private Subnet)
+- Same image, no public IP
+- SSH allowed only from the bastion's security group
+
+**Security group rules**
+| Resource | Type | Port | Source |
+| ------ | ----- | ----- | ------ |
+| Bastion | SSH | 22 | My IP | 
+| Bastion | HTTP | 80 | 0.0.0.0/0 | 
+| Private server | SSH | 22 | Bastion security group |
