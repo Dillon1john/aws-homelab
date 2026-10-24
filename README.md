@@ -62,5 +62,11 @@ then i run a bash script that connects to the private server through the bastion
 
 `ssh -i ~/Downloads/bastionKey.pem ec2-user@BASTION_PUBLIC_IP ec2-user@PRIVATE_IP`
 
+- **ssh:** opens a secure remote connection
+- **-i ~/Downloads/bastionKey.pem:** identify the key pair file
+- **-J:** jump host. Tells SSH to connect to the bastion first, then hop to the pricate server.
+- **ec2-user@BASTION_PUBLIC_IP:** the bastion login.
+- **ec2-user@PRIVATE_IP:** the private server login
+
 <img width="1917" height="554" alt="Screenshot 2026-10-24 at 1 56 51 AM" src="https://github.com/user-attachments/assets/41efdf4a-d4bf-40ae-98e1-1b6470f09581" />
 
