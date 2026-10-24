@@ -60,7 +60,7 @@ Initially, I run a code to update the permissions of the pem key to be private/ 
 
 then i run a bash script that connects to the private server through the bastion server
 
-`ssh -i ~/Downloads/bastionKey.pem ec2-user@BASTION_PUBLIC_IP ec2-user@PRIVATE_IP`
+`ssh -i ~/Downloads/bastionKey.pem -J ec2-user@BASTION_PUBLIC_IP ec2-user@PRIVATE_IP`
 
 - **ssh:** opens a secure remote connection
 - **-i ~/Downloads/bastionKey.pem:** identify the key pair file
