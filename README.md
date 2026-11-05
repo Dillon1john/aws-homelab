@@ -17,7 +17,7 @@
 
 | Phase | Focus | Status | Details |
 | ----- | ----- | ------ | ------- |
-| 1 | VPC, bastion host, Linux hardening | Complete | [Phase 1 write-up](docs/phase1-vpc-bastion.md) |
+| 1 | VPC, bastion host, Linux hardening | Complete | [Phase 1 write-up](aws-homelab/docs/phase1-vpc-bastion.md) |
 | 2 | Active Directory and DNS on Windows Server | In progress | [Phase 2 write-up](docs/phase2-active-directory.md) |
 
 ## Skills Demonstrated
