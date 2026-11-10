@@ -4,5 +4,5 @@
 
 **Status:** In progress
 
-##Goal
+## Goal
 Add a Windows Server domain controller to the private subnet to practice Active Directory, DNS, and common service desk tasks, reaching it securely through the existing bastion host
