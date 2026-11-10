@@ -16,6 +16,7 @@ Add a Windows Server domain controller to the private subnet to practice Active 
 
 ### 1. Launch the Windows server
 <img width="440" height="629" alt="Screenshot 2026-11-09 at 11 11 28 PM" src="https://github.com/user-attachments/assets/7743cf3f-72e1-4963-8196-3098cce90a5d" />
+
 - **Name:** 'dc01'
 - **AMI:** Windows Server 2022 Base
 - **Instance type:** t3.medium
