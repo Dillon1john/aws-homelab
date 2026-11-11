@@ -41,4 +41,14 @@ RDP can't reach the private subnet directly , so I tunneled it through SSH: <br>
    <img width="1413" height="349" alt="Screenshot 2026-11-09 at 11 58 30 PM" src="https://github.com/user-attachments/assets/b1a3160a-8dcf-45c8-8639-654dfb464260" />
 
 
+### 4. Install and Configure Windows RDP client 
+
+In order to reach the Windows VM, I start off by downloading the Windows Remote Desktop application from the app store
+<img width="912" height="690" alt="Screenshot 2026-11-10 at 12 00 41 AM" src="https://github.com/user-attachments/assets/ba4c628b-30ce-4dd0-83c2-535a1de61bcd" />
+
+After installing, I select the option to add new PC and then input the username and password I received in step 2. I save the PC name as 'localhost' 
+<img width="1282" height="832" alt="Screenshot 2026-11-10 at 12 04 10 AM" src="https://github.com/user-attachments/assets/9708dc24-c74e-4aaf-9c3f-d6a1276c1555" />
+
+
+
   
