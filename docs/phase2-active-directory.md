@@ -33,10 +33,11 @@ Decrypted the Windows Administrator password in the EC2 console using my key pai
 <img width="1413" height="773" alt="Screenshot 2026-11-09 at 11 44 19 PM" src="https://github.com/user-attachments/assets/1d4c758b-38ed-4c1d-a10b-d09a643c3795" />
 
 ### 3. Connect with RDP through the bastion
-RDP can't reach the private subnet directly , so I tunneled it through SSH:
+RDP can't reach the private subnet directly , so I tunneled it through SSH: <\br>
 `ssh -i ~/Downloads/bastionKey.pem -L 3389:DC_PRIVATE_IP:3389 ec2-user@BASTION_PUBLIC_IP` 
 - **-L 3389:DC_PRIVATE_IP:3389:** forwards my local port 3389 through the bastion to the domain controller's RDP port
 - Then connect a Remote Desktop client to 'loclhost:3389'
+  
    <img width="1413" height="349" alt="Screenshot 2026-11-09 at 11 58 30 PM" src="https://github.com/user-attachments/assets/b1a3160a-8dcf-45c8-8639-654dfb464260" />
 
 
