@@ -49,6 +49,10 @@ In order to reach the Windows VM, I start off by downloading the Windows Remote 
 After installing, I select the option to add new PC and then input the username and password I received in step 2. I save the PC name as 'localhost' 
 <img width="1282" height="832" alt="Screenshot 2026-11-10 at 12 04 10 AM" src="https://github.com/user-attachments/assets/9708dc24-c74e-4aaf-9c3f-d6a1276c1555" />
 
+<img width="1282" height="832" alt="Screenshot 2026-11-10 at 12 04 20 AM" src="https://github.com/user-attachments/assets/552c0a27-6e8f-4ca3-af5c-a4fca97a4679" />
+
+<img width="1440" height="900" alt="Screenshot 2026-11-10 at 12 05 51 AM" src="https://github.com/user-attachments/assets/c1921b2f-7d11-499c-bb92-ed98884f19de" />
+I have now successfully connected to the Windows VM through the RDP client
 
 
   
